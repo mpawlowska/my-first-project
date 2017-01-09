@@ -79,7 +79,7 @@ body {
 
 #box {
   width: 85%;
-  height: 110%;
+  height: 116%;
   background-color: #e0ecea;
   border-radius: 30px;
   margin-top: 20px;
@@ -96,41 +96,36 @@ body {
   font-family:'Roboto', sans-serif;
 }
 
-#ul_sign_up {
-  list-style-type: none;
-  display:block;
-  position: relative;
-  top: 40px;
-  right: 30px;
+form {
+margin-left: 20px;
+position: relative;
+top:-18px;
 }
 
-#ul_sign_up li {
-  margin: 0 0 10px 0;
-  background-color: white;
-  padding: 10px;
-  color: lightgrey;
+form input {
   font-family:'Roboto', sans-serif;
-  font-size: 110%;
-  position: relative;
-  left: 10px;
-  border-top: 2px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
-  height: 25px;
+  font-size: 17px;
+  color: lightgrey;
+  height: 39px;
+  margin-bottom: 10px;
+  border-top: solid 2px lightgrey;
+  border-bottom: solid 1px lightgrey;
+  border-left: none;
+
 }
 
 #box a {
   display: block;
-  position: relative;
-  top:10%;
   font-size: 90%;
   margin-left: 20px;
   text-decoration: none;
+  position: relative;
+  top: -23px;
 }
 
 button {
   position: relative;
   border: none;
-  top: 65px;
   left: 20px;
   font-size: 90%;
   padding: 10px;
